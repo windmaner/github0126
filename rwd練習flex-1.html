@@ -1,0 +1,139 @@
+<!Doctype html>
+<html >
+	<head>
+			<meta charset="utf-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+			<title>rwd練習</title>
+
+			<style>
+				*{
+					margin: 0;
+					padding: 0;
+					list-style: none;
+				}
+				#header{
+					background-color:#f0e68c;
+					width: 100%;
+					color:white;
+					font-size: 36px;
+
+				}
+				#list{
+					margin: 0 10px;
+				}
+				#list ul{
+					width: 100%;
+
+				}
+				#list ul li{
+					width: 100%;
+					font-size: 24px;
+					line-height: 24px;
+					text-align: center;
+					padding: 20px 0;
+					background-color: #f5deb3;
+
+				}
+				#content{
+					width: 100%;
+					max-width: 1200px;
+					margin: auto;
+					background: #a9a9a9;
+
+				}
+				#left{
+					width: 100%;
+					float:left;
+					background: #ff7f50;
+				}
+				#right{
+					width: 100%;
+					float:left;
+					background: #5f9ea0;
+					display: flex;
+				}
+				@media screen and (min-width:736px){
+
+				#list ul{
+					width:100%;
+					margin: auto;
+					max-width: 1400px;
+					background-color: #f5deb3;
+
+				}	
+				#list ul li{
+					float: left;
+					width: 25%;					
+					height: 40px;
+					font-size: 24px;
+					line-height: 40px;
+					text-align: center;
+				}
+				#list ul li:hover{
+					background-color:#ff7f50; 
+				}
+				.clearfix{
+					clear:both;
+				}
+				#content{
+					width: 980px;
+					margin: auto;
+
+				}
+				#left{
+					width: 40%;
+					float:left;
+					background: #ff7f50;
+				}
+				#right{
+					width: 60%;
+					float:left;
+					background: #5f9ea0;
+					display: flex;
+				}
+
+				}
+				
+			</style>
+		
+
+	</head>
+	<body>
+			<div id='header'>我是標題</div>
+			<div id='list'>
+				<ul>
+					<li>facebook</li>
+					<li>gmail</li>
+					<li>yahoo</li>
+					<li>kaka</li>
+					<div class="clearfix"></div>
+				</ul>
+			</div>
+			<div id='content'>
+				<div id='left'>
+				<div class='lefttop'>contents1</div>
+				<div class='lefttop'>contents2</div>
+				</div>
+				<div id='right'>
+					<div>
+					<h2>我是標題</h2>
+					<p>我是一堆文字123456789一堆文字</p>
+					</div>
+					<div>
+					<h2>我是標題</h2>
+					<p>我是一堆文字123456789一堆文字</p>
+					</div>
+					<div>
+					<h2>我是標題</h2>
+					<p>我是一堆文字123456789一堆文字</p>
+					</div>
+				
+				</div>
+				<div class='clearfix'></div>
+
+				
+
+
+			</div>
+	</body>
+</html>
